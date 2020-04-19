@@ -56,3 +56,7 @@ Utilizado o seguinte WebService, formato SOAP 1.1: https://www.w3schools.com/xml
   
 ### Retrofit
   - [GitHub](https://github.com/square/retrofit)
+
+## Aplicativo
+
+![device-2020-04-18-235944](https://user-images.githubusercontent.com/22308459/79678350-eac23c00-81d0-11ea-86c1-dc9d0c77a213.png)
