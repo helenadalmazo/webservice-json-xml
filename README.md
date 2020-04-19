@@ -6,11 +6,46 @@ Especialização / Pós-graduação: App development - desenvolvimento de aplica
 
 Disciplina: Desenvolvimento de Serviços Web
 
-## WebService JSON e XML
+## App que consuma WebService JSON e XML
 
 Desenvolver um aplicativo que consuma duas arquitetura diferentes de serviços:
 * um que utilize JSON como resposta
 * um que utilize XML como resposta
+
+## JSON
+
+Utilizado um mock, acessível por:
+
+`GET https://helenadalmazo.free.beeceptor.com/temperatures`
+
+E com a seguinte resposta:
+
+```json
+[
+  {
+    "name": "Celsius",
+    "symbol": "C",
+    "freezing_point_of_water": 0,
+    "boiling_point_of_water": 100
+  },
+  {
+    "name": "Fahrenheit",
+    "symbol": "F",
+    "freezing_point_of_water": 32,
+    "boiling_point_of_water": 212
+  },
+  {
+    "name": "Kelvin",
+    "symbol": "K",
+    "freezing_point_of_water": 273,
+    "boiling_point_of_water": 373
+  }
+]
+```
+
+## XML
+
+Utilizado o seguinte WebService, formato SOAP 1.1: https://www.w3schools.com/xml/tempconvert.asmx?op=CelsiusToFahrenheit
 
 ## Tecnologias
 
